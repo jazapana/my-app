@@ -60,7 +60,7 @@ const FirstPage = () => {
         {boxes.map((box) => (
           <div
             key={box.id}
-            className={`bg-gray-300 p-4 h-24 flex items-center justify-center text-xl ${highlightedBoxId === box.id ? 'bg-blue-400' : ''}`}
+            className={`bg-gray-300 p-4 h-24 flex items-center justify-center text-xl ${highlightedBoxId === box.id ? 'bg-green-400' : ''}`}
             onClick={() => toggleHighlight(box.id)}
           >
             (IMAGE)
