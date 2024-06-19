@@ -58,7 +58,7 @@ const FirstPage = () => {
       case 3:
         return <p className="text-xl mb-6">Joel's skills include: Java, Python, HTML, CSS, C++, C, PHP, JavaScript, TypeScript, MySQL, SQLite, Firebase, React Native, Flask, and Spring.</p>
       default:
-        return <p className="text-xl mb-6">Click on these boxes to learn about Joel Zapana.</p>
+        return <p className="text-xl mb-6">Click on these boxes to learn more about Joel Zapana.</p>
     }
   };
 
