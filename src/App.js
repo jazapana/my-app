@@ -1,5 +1,6 @@
 import './App.css';
 import SecondPage from './SecondPage';
+import ProjectPreview from './ProjectPreview';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { useState } from 'react';
 import joelPic from './assets/IMG_7721.jpg';
@@ -21,12 +22,16 @@ function App() {
               <li>
                 <Link to="/experience" className="text-xl hover:underline">Experience</Link>
               </li>
+              <li>
+                <Link to="/newproject" className="text-xl hover:underline">Project Preview</Link>
+              </li>
             </ul>
           </nav>
         </div>
         <Routes>
           <Route path="/" element={<FirstPage />} />
           <Route path="/experience" element={<SecondPage />} />
+          <Route path="/newproject" element={<ProjectPreview />} />
         </Routes>
       </div>
     </Router>
